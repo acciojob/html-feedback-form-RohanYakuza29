@@ -3,14 +3,32 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<title>HTML Feedback Form</title>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+<body>
+	<h1>Feedback Form</h1>
+	
+		
+	<form method="post">
+		<label>Name</label><br>
+		<input type="text" id="name" name="name" minlength="3" maxlength="50"><br>
 
+		<label>Portfolio</label><br>
+		<input type="URL" id="portfolio" name="portfolio" minlength="1" maxlength="100">
+<br>
+		<label>Favorite Color</label><br>
+		<input type="color" id="favcolor" name="favcolor">
+		<br>
+
+		<label>likeness</label><br>
+		<input type="range" id="likeness" name="likeness" minlength="1" maxlength="100">
+		<br>
+		<input type="submit"></input>
+		
+		
+	</form>
 </body>
 
 </html>
